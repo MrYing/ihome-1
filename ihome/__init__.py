@@ -15,6 +15,8 @@ from flask_wtf import CSRFProtect
 from config import configs
 
 # 定义能被外部调用的对象
+from ihome.utils.commons import RegexConverter
+
 db = SQLAlchemy()
 redis_conn = None
 
@@ -50,7 +52,7 @@ def get_app(config_name):
 
     # 创建Redis数据库连接对象
     global redis_conn
-    redis_conn = redis.StrictRedis(host=configs[config_name].REDIS_HOST, port=configs[config_name].REDIS_PORT)
+    redis_conn = redis.StrictRedis(host=configs[config_name].REDIS_HOST, port=configs[config_name].REDIS_PORT, password=configs[config_name].REDIS_PWD)
 
     # session绑定app
     Session(app)
@@ -58,10 +60,14 @@ def get_app(config_name):
     # 开启CSRF保护
     CSRFProtect(app)
 
+    # 自定义转换器加入到默认转换器列表中
+    app.url_map.converters['re'] = RegexConverter
 
     # 哪里需要哪里导入蓝图
     from ihome.api_1_0 import api
+    from ihome.web_html import static_html
     # 注册蓝图
     app.register_blueprint(api)
+    app.register_blueprint(static_html)
 
     return app
