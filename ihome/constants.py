@@ -13,7 +13,13 @@ SMS_CODE_REDIS_EXPIRES = 300
 API_KEY = '70c240ba6xxxxxxxxxxxxxxxxxxxxa49'
 
 # 七牛空间域名
-QINIU_DOMIN_PREFIX = "http://oyxxxxxxxxcom/"
+QINIU_DOMIN_PREFIX = "http://psb5nhiwz.bkt.clouddn.com/"
+#七牛access_key
+ACCESS_KEY = "g63leLSTgEOw4Gf_rmdsNYYmVY9bYgXByTeaqkwx"
+#七牛secret_key
+SECRET_KEY = "UW8vGY5ow67usihHMUDMjaEKqKyRKwni3jm5RHt0"
+#上传的空间名
+BUCKET_NAME = 'ihome'
 
 # 城区信息redis缓存时间，单位：秒
 AREA_INFO_REDIS_EXPIRES = 7200

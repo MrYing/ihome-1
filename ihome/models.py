@@ -5,6 +5,8 @@
 # @File    : models.py
 
 from datetime import datetime
+
+from ihome import constants
 from . import db
 from werkzeug.security import generate_password_hash, check_password_hash
 
@@ -41,6 +43,18 @@ class User(BaseModel, db.Model):
     def check_password(self, password):
         # 校验密码是否正确
         return check_password_hash(self.password, password)
+
+    def to_dict(self):
+        # 返回一个用户信息字典接口，使外界方便调用
+        user_info = {
+            'user_id': self.id,
+            'name': self.name,
+            'phone_num': self.phone_num,
+            'avatar_url': self.avatar_url
+        }
+        if self.avatar_url:
+            user_info['avatar_url'] = constants.QINIU_DOMIN_PREFIX + self.avatar_url
+        return user_info
 
 
 class Area(BaseModel, db.Model):
