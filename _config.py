@@ -16,8 +16,8 @@ class Config(object):
     # logging等级
     LOGGIONG_LEVEL = logging.DEBUG
 
-    # 配置secret key,简单生成方法，ipthon 中 base64.b64encode(os.urandom(48))
-    SECRET_KEY = 'ix4En7l1Hau10aPq8kv8tuzcVl1s2Zo6eA+5+R+CXor8G3Jo0IJvcj001jz3XuXl'
+    # 配置secret key,简单生成方法，python 中 base64.b64encode(os.urandom(48))
+    SECRET_KEY = 'uCzekR5vY9p3rVF6iXDM7eElnzEaaxPdMYPVFyTpCsTH/NoQCeHt/4vzX+lb2Xk+'
 
     # orm连接数据库
     SQLALCHEMY_DATABASE_URI = 'mysql://root:root@127.0.0.1:3306/ihome'

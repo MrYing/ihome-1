@@ -144,3 +144,29 @@ NOAUTH Authentication required.
 图片验证码信息：kwvL
 127.0.0.1 - - [30/May/2019 08:45:14] "GET /api/1.0/imageCode?uuid=12345 HTTP/1.1" 200 -
 127.0.0.1 - - [30/May/2019 08:45:14] "GET /favicon.ico HTTP/1.1" 200 -
+ * Detected change in 'G:\\GitHub\\ihome\\ihome\\utils\\captcha\\__init__.py', reloading
+ * Restarting with stat
+ * Detected change in 'G:\\GitHub\\ihome\\ihome\\api_1_0\\verify.py', reloading
+ * Restarting with stat
+ * Detected change in 'G:\\GitHub\\ihome\\config.py', reloading
+ * Restarting with stat
+ * Detected change in 'G:\\GitHub\\ihome\\ihome\\api_1_0\\verify.py', reloading
+ * Restarting with stat
+ * Detected change in 'G:\\GitHub\\ihome\\ihome\\api_1_0\\verify.py', reloading
+ * Restarting with stat
+ * Detected change in 'G:\\GitHub\\ihome\\ihome\\api_1_0\\verify.py', reloading
+ * Restarting with stat
+ * Detected change in 'G:\\GitHub\\ihome\\ihome\\api_1_0\\verify.py', reloading
+ * Restarting with stat
+ * Detected change in 'G:\\GitHub\\ihome\\ihome\\api_1_0\\verify.py', reloading
+ * Restarting with stat
+ * Detected change in 'G:\\GitHub\\ihome\\ihome\\api_1_0\\verify.py', reloading
+ * Restarting with stat
+ * Detected change in 'G:\\GitHub\\ihome\\ihome\\api_1_0\\verify.py', reloading
+ * Restarting with stat
+ * Detected change in 'G:\\GitHub\\ihome\\ihome\\api_1_0\\verify.py', reloading
+ * Restarting with stat
+ * Detected change in 'G:\\GitHub\\ihome\\ihome\\api_1_0\\verify.py', reloading
+ * Restarting with stat
+ * Detected change in 'G:\\GitHub\\ihome\\ihome\\api_1_0\\verify.py', reloading
+ * Restarting with stat

@@ -1,1 +1,1 @@
-from . import captcha
+from .captcha import captcha
