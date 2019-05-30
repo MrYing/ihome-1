@@ -5,7 +5,7 @@
 # @File    : verify.py
 import json
 import re
-from random import random
+import random
 
 from flask import request, abort, current_app, jsonify, make_response
 
@@ -96,7 +96,7 @@ def send_sms_code():
         return jsonify(re_code=RET.NODATA, msg='验证码已过期')
 
     # 校验和前端传的验证码是否相等
-    if image_code_server.lower() != image_code_client.lower():
+    if image_code_server.decode().lower() != image_code_client.lower():
         return jsonify(re_code=RET.DATAERR, msg='验证码输入有误')
 
     # 4.生成验证码
@@ -107,10 +107,10 @@ def send_sms_code():
     # 同一个手机号同一个验证码模板，每30秒只能获取1条
     # 同一个手机号验证码类内容，每小时最多能获取3条
     # 同一个手机号验证码类内容，24小时内最多能获取到10条
-    result = SendSMS().send_sms(phone_num, sms_code)
-    if not result:
-        # 短信发送失败
-        return jsonify(re_code=RET.THIRDERR, msg='发送短信验证码失败')
+    # result = SendSMS().send_sms(phone_num, sms_code)
+    # if not result:
+    #     # 短信发送失败
+    #     return jsonify(re_code=RET.THIRDERR, msg='发送短信验证码失败')
     # 6.发送成功，验证码存储到Redis
     try:
         redis_conn.set('PhoneCode:' + phone_num, sms_code, constants.SMS_CODE_REDIS_EXPIRES)

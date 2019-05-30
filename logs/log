@@ -170,3 +170,524 @@ NOAUTH Authentication required.
  * Restarting with stat
  * Detected change in 'G:\\GitHub\\ihome\\ihome\\api_1_0\\verify.py', reloading
  * Restarting with stat
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 227-145-234
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [30/May/2019 15:32:20] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [30/May/2019 15:32:20] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [30/May/2019 15:32:20] "GET /static/css/ihome/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [30/May/2019 15:32:20] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [30/May/2019 15:32:20] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [30/May/2019 15:32:20] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [30/May/2019 15:32:20] "GET /static/css/reset.css HTTP/1.1" 304 -
+127.0.0.1 - - [30/May/2019 15:32:20] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+127.0.0.1 - - [30/May/2019 15:32:20] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [30/May/2019 15:32:20] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+127.0.0.1 - - [30/May/2019 15:32:21] "GET /static/js/template.js HTTP/1.1" 304 -
+127.0.0.1 - - [30/May/2019 15:32:21] "GET /static/js/ihome/index.js HTTP/1.1" 304 -
+127.0.0.1 - - [30/May/2019 15:32:21] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [30/May/2019 15:32:21] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [30/May/2019 15:32:21] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [30/May/2019 15:32:21] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [30/May/2019 15:32:21] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 -
+127.0.0.1 - - [30/May/2019 15:32:21] "GET /api/1.0/sessions HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 15:32:21] "GET /api/1.0/houses/index HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 15:32:21] "GET /api/1.0/areas HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 15:32:25] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 15:32:25] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:32:43] "GET /register.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:32:43] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:32:43] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:32:43] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:32:43] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:32:43] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:32:43] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:32:43] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:32:43] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:32:43] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:32:43] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:32:43] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+图片验证码信息：WOrv
+127.0.0.1 - - [30/May/2019 15:32:44] "GET /api/1.0/imageCode?uuid=b7a7eee5-b52d-4574-9dd3-1947a73912f1&last_uuid= HTTP/1.1" 200 -
+图片验证码信息：7TUj
+127.0.0.1 - - [30/May/2019 15:32:47] "GET /api/1.0/imageCode?uuid=1d14b61a-ad6b-4077-9fb3-7cc4c91b1fcc&last_uuid=b7a7eee5-b52d-4574-9dd3-1947a73912f1 HTTP/1.1" 200 -
+图片验证码信息：myDG
+127.0.0.1 - - [30/May/2019 15:32:48] "GET /api/1.0/imageCode?uuid=338e0b32-e8ed-4856-9e7e-4c45f47d12c7&last_uuid=1d14b61a-ad6b-4077-9fb3-7cc4c91b1fcc HTTP/1.1" 200 -
+图片验证码信息：apCu
+127.0.0.1 - - [30/May/2019 15:32:49] "GET /api/1.0/imageCode?uuid=0cb90dce-63d5-499b-a042-e9108939cfeb&last_uuid=338e0b32-e8ed-4856-9e7e-4c45f47d12c7 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:33:31] "POST /api/1.0/smsCode HTTP/1.1" 200 -
+图片验证码信息：NvQi
+127.0.0.1 - - [30/May/2019 15:35:54] "GET /api/1.0/imageCode?uuid=5b923178-129c-48fe-ba4c-d571ad405066&last_uuid=0cb90dce-63d5-499b-a042-e9108939cfeb HTTP/1.1" 200 -
+图片验证码信息：mukn
+127.0.0.1 - - [30/May/2019 15:35:55] "GET /api/1.0/imageCode?uuid=3bf5f5c8-ed6b-4107-92bd-80f9044a30bb&last_uuid=5b923178-129c-48fe-ba4c-d571ad405066 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:36:37] "POST /api/1.0/smsCode HTTP/1.1" 200 -
+图片验证码信息：FdIS
+127.0.0.1 - - [30/May/2019 15:36:49] "GET /api/1.0/imageCode?uuid=8821ecb1-9c9a-42cc-82d4-688b9611b389&last_uuid=3bf5f5c8-ed6b-4107-92bd-80f9044a30bb HTTP/1.1" 200 -
+图片验证码信息：dSY6
+127.0.0.1 - - [30/May/2019 15:36:51] "GET /api/1.0/imageCode?uuid=900ac729-2b19-4f2c-b807-70ec02b6a7e9&last_uuid=8821ecb1-9c9a-42cc-82d4-688b9611b389 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:38:53] "POST /api/1.0/smsCode HTTP/1.1" 200 -
+ * Detected change in 'G:\\GitHub\\ihome\\ihome\\api_1_0\\verify.py', reloading
+ * Restarting with stat
+图片验证码信息：MGd6
+图片验证码信息：PVDa
+127.0.0.1 - - [30/May/2019 15:39:07] "GET /api/1.0/imageCode?uuid=08daee76-a60d-4c55-9b88-7a52cbaff5b9&last_uuid=900ac729-2b19-4f2c-b807-70ec02b6a7e9 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:39:08] "GET /api/1.0/imageCode?uuid=e79ef762-5a59-4911-8e69-5e47e9ec8f5b&last_uuid=08daee76-a60d-4c55-9b88-7a52cbaff5b9 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:39:18] "POST /api/1.0/smsCode HTTP/1.1" 500 -
+ * Detected change in 'G:\\GitHub\\ihome\\ihome\\api_1_0\\verify.py', reloading
+ * Restarting with stat
+图片验证码信息：tURT
+127.0.0.1 - - [30/May/2019 15:40:42] "GET /api/1.0/imageCode?uuid=f01f3b4d-2aac-481e-bb73-c4b0b67ba691&last_uuid=e79ef762-5a59-4911-8e69-5e47e9ec8f5b HTTP/1.1" 200 -
+图片验证码信息：tcAx
+127.0.0.1 - - [30/May/2019 15:40:44] "GET /api/1.0/imageCode?uuid=79b1ae40-f346-4bce-bcfb-bc882da8109a&last_uuid=f01f3b4d-2aac-481e-bb73-c4b0b67ba691 HTTP/1.1" 200 -
+图片验证码信息：RD7e
+127.0.0.1 - - [30/May/2019 15:40:46] "GET /api/1.0/imageCode?uuid=70a90524-7798-4b8b-9e58-d385acfda927&last_uuid=79b1ae40-f346-4bce-bcfb-bc882da8109a HTTP/1.1" 200 -
+图片验证码信息：4TrM
+127.0.0.1 - - [30/May/2019 15:40:48] "GET /api/1.0/imageCode?uuid=b5704f9c-4239-4492-9a82-3061c63bef10&last_uuid=70a90524-7798-4b8b-9e58-d385acfda927 HTTP/1.1" 200 -
+图片验证码信息：kiJ5
+127.0.0.1 - - [30/May/2019 15:40:49] "GET /api/1.0/imageCode?uuid=5da7732b-163d-4922-bdad-8c17584d48cb&last_uuid=b5704f9c-4239-4492-9a82-3061c63bef10 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:41:45] "GET /register.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:41:45] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:41:45] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:41:45] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:41:45] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:41:45] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:41:45] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:41:45] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:41:46] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:41:46] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:41:46] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:41:46] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+图片验证码信息：MyCd
+127.0.0.1 - - [30/May/2019 15:41:46] "GET /api/1.0/imageCode?uuid=36949343-12a9-4d83-bfe2-932d936251a0&last_uuid= HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:41:47] "GET /favicon.ico HTTP/1.1" 200 -
+图片验证码信息：UPgz
+127.0.0.1 - - [30/May/2019 15:41:53] "GET /api/1.0/imageCode?uuid=f262c179-0cf3-464a-b9d9-d9935b58ed10&last_uuid=36949343-12a9-4d83-bfe2-932d936251a0 HTTP/1.1" 200 -
+短信验证码为：046950
+Starting new HTTPS connection (1): sms.yunpian.com:443
+https://sms.yunpian.com:443 "POST /v2/sms/single_send.json HTTP/1.1" 400 None
+127.0.0.1 - - [30/May/2019 15:42:32] "POST /api/1.0/smsCode HTTP/1.1" 200 -
+ * Detected change in 'G:\\GitHub\\ihome\\ihome\\api_1_0\\verify.py', reloading
+ * Restarting with stat
+ * Detected change in 'G:\\GitHub\\ihome\\ihome\\api_1_0\\verify.py', reloading
+ * Restarting with stat
+图片验证码信息：FcA6
+127.0.0.1 - - [30/May/2019 15:43:58] "GET /api/1.0/imageCode?uuid=14815c54-3dae-47af-bc2a-4a1647c755ba&last_uuid=f262c179-0cf3-464a-b9d9-d9935b58ed10 HTTP/1.1" 200 -
+短信验证码为：068976
+127.0.0.1 - - [30/May/2019 15:44:32] "POST /api/1.0/smsCode HTTP/1.1" 200 -
+ * Detected change in 'G:\\GitHub\\ihome\\ihome\\models.py', reloading
+ * Restarting with stat
+127.0.0.1 - - [30/May/2019 15:47:09] "POST /api/1.0/users HTTP/1.1" 200 -
+ * Detected change in 'G:\\GitHub\\ihome\\ihome\\api_1_0\\passport.py', reloading
+ * Restarting with stat
+ * Detected change in 'G:\\GitHub\\ihome\\ihome\\api_1_0\\passport.py', reloading
+ * Restarting with stat
+127.0.0.1 - - [30/May/2019 15:48:16] "POST /api/1.0/users HTTP/1.1" 200 -
+图片验证码信息：ajUu
+127.0.0.1 - - [30/May/2019 15:48:22] "GET /api/1.0/imageCode?uuid=65a24e4d-9e08-4450-a9a1-f0efcff238c0&last_uuid=14815c54-3dae-47af-bc2a-4a1647c755ba HTTP/1.1" 200 -
+短信验证码为：047767
+127.0.0.1 - - [30/May/2019 15:48:38] "POST /api/1.0/smsCode HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:48:49] "POST /api/1.0/users HTTP/1.1" 200 -
+ * Detected change in 'G:\\GitHub\\ihome\\ihome\\api_1_0\\passport.py', reloading
+ * Restarting with stat
+127.0.0.1 - - [30/May/2019 15:49:36] "GET /register.html HTTP/1.1" 200 -
+图片验证码信息：JCXT
+127.0.0.1 - - [30/May/2019 15:49:36] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:49:37] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:49:37] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:49:37] "GET /api/1.0/imageCode?uuid=e97ce0e5-d35f-4300-b56f-6efc89f279f7&last_uuid=65a24e4d-9e08-4450-a9a1-f0efcff238c0 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:49:37] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:49:37] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:49:37] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:49:37] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:49:37] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:49:37] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:49:37] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:49:37] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+图片验证码信息：kWCd
+127.0.0.1 - - [30/May/2019 15:49:37] "GET /api/1.0/imageCode?uuid=5c1abcb7-f659-40a0-b2b8-6c1aad34f1e3&last_uuid= HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:49:38] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:49:48] "POST /api/1.0/smsCode HTTP/1.1" 200 -
+图片验证码信息：DWRw
+127.0.0.1 - - [30/May/2019 15:49:52] "GET /api/1.0/imageCode?uuid=f9a4a1b6-b69b-4451-bc8a-0b3193743f99&last_uuid=5c1abcb7-f659-40a0-b2b8-6c1aad34f1e3 HTTP/1.1" 200 -
+短信验证码为：081557
+127.0.0.1 - - [30/May/2019 15:49:59] "POST /api/1.0/smsCode HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:50:24] "POST /api/1.0/users HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:03] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:03] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:03] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:04] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:04] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:04] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:04] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:04] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:04] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:04] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:04] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:04] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:04] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:04] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:04] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:04] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:04] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:04] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 15:52:04] "GET /api/1.0/sessions HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 15:52:04] "GET /api/1.0/houses/index HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 15:52:05] "GET /api/1.0/areas HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 15:52:16] "GET /register.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:16] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:16] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:16] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:16] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:16] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:16] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:16] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:16] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:16] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:17] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:17] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+图片验证码信息：DBYU
+127.0.0.1 - - [30/May/2019 15:52:17] "GET /api/1.0/imageCode?uuid=4461eee3-77fe-4075-9e11-d2c1b0e9f6ee&last_uuid= HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:32] "POST /api/1.0/smsCode HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:42] "GET /login.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:43] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:43] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:43] "GET /static/css/ihome/login.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:43] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:43] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:43] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:43] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:43] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:43] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:43] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:43] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:53] "POST /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:53] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:53] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:53] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:53] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:53] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:53] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:53] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:53] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:54] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:54] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:54] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:54] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:54] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:54] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:54] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:54] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:54] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 15:52:54] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 15:52:54] "GET /api/1.0/sessions HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 15:52:54] "GET /api/1.0/houses/index HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 15:52:54] "GET /api/1.0/areas HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:01:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:01:52] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:01:52] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:01:52] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:01:52] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:01:52] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:01:52] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:01:52] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:01:52] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:01:52] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:01:52] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:01:52] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:01:52] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:01:52] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:01:52] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:01:52] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:01:52] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:01:52] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:01:53] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:01:53] "GET /api/1.0/areas HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:01:53] "GET /api/1.0/houses/index HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:01:53] "GET /api/1.0/sessions HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:01:53] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:01] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:01] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:01] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:01] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:01] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:01] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:01] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:01] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:01] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:02] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:02] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:02] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:02] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:02] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:02] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:02] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:02] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:02] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:02:02] "GET /api/1.0/areas HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:02:02] "GET /api/1.0/houses/index HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:02:02] "GET /api/1.0/sessions HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:02:03] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:20] "GET /register.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:20] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:20] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:20] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:20] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:20] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:20] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:20] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:20] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:20] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:20] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:20] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+图片验证码信息：JH9y
+127.0.0.1 - - [30/May/2019 16:02:21] "GET /api/1.0/imageCode?uuid=0535b690-2d32-44f8-81e6-989fc8c3cdcc&last_uuid= HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:23] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:23] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:23] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:23] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:23] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:23] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:23] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:23] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:23] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:24] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:24] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:24] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:24] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:24] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:24] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:24] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:24] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:02:24] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:02:24] "GET /api/1.0/sessions HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:02:24] "GET /api/1.0/houses/index HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:02:24] "GET /api/1.0/areas HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:06:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:06:23] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:06:23] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:06:23] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:06:23] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:06:23] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:06:23] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:06:23] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:06:23] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:06:23] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:06:23] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:06:23] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:06:23] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:06:23] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:06:23] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:06:23] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:06:23] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:06:23] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:06:23] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:06:24] "GET /api/1.0/sessions HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:06:24] "GET /api/1.0/houses/index HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:06:24] "GET /api/1.0/areas HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:06:24] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:07:16] "POST /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:07:17] "GET /api/1.0/sessions HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:07:17] "GET /api/1.0/houses/index HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:07:17] "GET /api/1.0/areas HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:07:30] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:07:30] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:07:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:07:34] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:07:34] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:07:34] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:07:34] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:07:34] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:07:34] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:07:34] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:07:34] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:07:34] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:07:35] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:07:35] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:07:35] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:07:35] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:07:35] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:07:35] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:07:35] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:07:35] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:07:35] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:07:35] "GET /api/1.0/sessions HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:07:35] "GET /api/1.0/houses/index HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:07:35] "GET /api/1.0/areas HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:07:35] "GET /favicon.ico HTTP/1.1" 200 -
+ * Detected change in 'G:\\GitHub\\ihome\\ihome\\api_1_0\\passport.py', reloading
+ * Restarting with stat
+ * Detected change in 'G:\\GitHub\\ihome\\ihome\\api_1_0\\passport.py', reloading
+ * Restarting with stat
+127.0.0.1 - - [30/May/2019 16:08:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:08:43] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:08:43] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:08:44] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:08:44] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:08:44] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:08:44] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:08:44] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:08:44] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:08:44] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:08:44] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:08:44] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:08:44] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:08:44] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:08:44] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:08:44] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:08:44] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:08:44] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:08:44] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:08:44] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:08:44] "GET /api/1.0/houses/index HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:08:44] "GET /api/1.0/areas HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:08:45] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:04] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:04] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:04] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:04] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:04] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:04] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:04] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:04] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:04] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:05] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:05] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:05] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:05] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:05] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:05] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:05] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:05] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:05] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:09:05] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:05] "GET /api/1.0/houses/index HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:09:05] "GET /api/1.0/areas HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:09:06] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:09] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:09] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:09] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:09] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:09] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:09] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:09] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:09] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:09] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:09] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:09] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:09] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:09] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:09] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:09:10] "GET /api/1.0/users HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:09:14] "DELETE /api/1.0/sessions HTTP/1.1" 500 -
+ * Detected change in 'G:\\GitHub\\ihome\\ihome\\utils\\commons.py', reloading
+ * Restarting with stat
+127.0.0.1 - - [30/May/2019 16:10:40] "DELETE /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:10:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:10:42] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:10:42] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:10:42] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:10:42] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:10:42] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:10:42] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:10:42] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:10:42] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:10:42] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:10:42] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:10:42] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:10:42] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:10:42] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:10:42] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:10:42] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:10:42] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:10:42] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:10:43] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:10:43] "GET /api/1.0/areas HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:10:43] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:10:43] "GET /api/1.0/houses/index HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:11:13] "GET /login.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:13] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:13] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:13] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:13] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:13] "GET /static/css/ihome/login.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:13] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:13] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:13] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:13] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:13] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:13] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:29] "POST /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:29] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:29] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:29] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:29] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:29] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:29] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:29] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:29] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:29] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:30] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:30] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:30] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:30] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:30] "GET /static/js/template.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:30] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:30] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:30] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:30] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:11:30] "GET /api/1.0/sessions HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:30] "GET /api/1.0/areas HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:11:30] "GET /api/1.0/houses/index HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:11:35] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:35] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:35] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:35] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:35] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:35] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:35] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:35] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:35] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:35] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:35] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:35] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:35] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:35] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:36] "GET /api/1.0/users HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:11:39] "GET /profile.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:39] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:39] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:39] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:39] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:39] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:39] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:39] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:39] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:39] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:39] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:39] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:39] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:39] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:39] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:40] "GET /api/1.0/users HTTP/1.1" 404 -
+127.0.0.1 - - [30/May/2019 16:11:43] "GET /my.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:43] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:43] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:43] "GET /static/css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:43] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:43] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:43] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:44] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:44] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:44] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:44] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:44] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:44] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:44] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [30/May/2019 16:11:44] "GET /api/1.0/users HTTP/1.1" 404 -

@@ -108,7 +108,7 @@ $(document).ready(function() {
         var phone_num=$('#mobile').val(),
             phonecode=$('#phonecode').val(),
             password=$('#password').val(),
-            regix=/^0\d{2,3}\d{7,8}$|^1[358]\d{9}$|^147\d{8}$/;
+            regix=/^1([38][0-9]|4[579]|5[0-3,5-9]|6[6]|7[0135678]|9[89])\d{8}$/;
         // 判断是否为空,校验
         if(!regix.exec(phone_num)){
             $('#mobile-err span').text('手机号错误');
