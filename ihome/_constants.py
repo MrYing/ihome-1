@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Time    : 2019/5/29 17:32
+# @Time    : 2019/5/30 21:12
 # @Author  : gao
-# @File    : constants.py.py
+# @File    : _constants.py
+
 # 图片验证码Redis有效期， 单位：秒
 IMAGE_CODE_REDIS_EXPIRES = 300
 
@@ -13,13 +14,13 @@ SMS_CODE_REDIS_EXPIRES = 300
 API_KEY = '70c240ba6xxxxxxxxxxxxxxxxxxxxa49'
 
 # 七牛空间域名
-QINIU_DOMIN_PREFIX = "http://psb5nhiwz.bkt.clouddn.com/"
+QINIU_DOMIN_PREFIX = "http://dn.com/"
 #七牛access_key
-ACCESS_KEY = "g63leLSTgEOw4Gf_rmdsNYYmVY9bYgXByTeaqkwx"
+ACCESS_KEY = "g63leaqkwx"
 #七牛secret_key
-SECRET_KEY = "UW8vGY5ow67usihHMUDMjaEKqKyRKwni3jm5RHt0"
+SECRET_KEY = "UW85RHt0"
 #上传的空间名
-BUCKET_NAME = 'ihome'
+BUCKET_NAME = ''
 
 # 城区信息redis缓存时间，单位：秒
 AREA_INFO_REDIS_EXPIRES = 7200
