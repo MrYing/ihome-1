@@ -56,6 +56,13 @@ class User(BaseModel, db.Model):
             user_info['avatar_url'] = constants.QINIU_DOMIN_PREFIX + self.avatar_url
         return user_info
 
+    def to_auth_dict(self):
+        """实名认证数据"""
+        return {
+            'real_name': self.real_name,
+            'id_card': self.id_card
+        }
+
 
 class Area(BaseModel, db.Model):
     """城区"""
@@ -64,6 +71,12 @@ class Area(BaseModel, db.Model):
     id = db.Column(db.Integer, primary_key=True)  # 区域编号
     name = db.Column(db.String(32), nullable=False)  # 区域名字
     houses = db.relationship('House', backref='area')  # 区域的房屋
+
+    def to_dict(self):
+        return {
+            'aname': self.name,
+            'aid': self.id
+        }
 
 
 class Facility(BaseModel, db.Model):
@@ -106,6 +119,66 @@ class House(BaseModel, db.Model):
     facilities = db.relationship("Facility", secondary=house_facility)  # 房屋的设施
     images = db.relationship("HouseImage")  # 房屋的图片
     orders = db.relationship("Order", backref="house")  # 房屋的订单
+
+    def to_basic_dict(self):
+        """房屋基本信息字典"""
+        return {
+            "house_id": self.id,
+            "title": self.title,
+            "price": self.price,
+            "area_name": self.area.name,
+            "img_url": constants.QINIU_DOMIN_PREFIX + self.index_image_url if self.index_image_url else "",
+            "room_count": self.room_count,
+            "order_count": self.order_count,
+            "address": self.address,
+            "user_avatar": constants.QINIU_DOMIN_PREFIX + self.user.avatar_url if self.user.avatar_url else "",
+            "ctime": self.create_time.strftime("%Y-%m-%d")
+        }
+
+    def to_full_dict(self):
+        """房屋详细信息字典"""
+        house_dict = {
+            "hid": self.id,
+            "user_id": self.user_id,
+            "user_name": self.user.name,
+            "user_avatar": constants.QINIU_DOMIN_PREFIX + self.user.avatar_url if self.user.avatar_url else "",
+            "title": self.title,
+            "price": self.price,
+            "address": self.address,
+            "room_count": self.room_count,
+            "acreage": self.acreage,
+            "unit": self.unit,
+            "capacity": self.capacity,
+            "beds": self.beds,
+            "deposit": self.deposit,
+            "min_days": self.min_days,
+            "max_days": self.max_days,
+        }
+        # 房屋图片
+        img_urls = []
+        for image in self.images:
+            img_urls.append(constants.QINIU_DOMIN_PREFIX + image.url)
+        house_dict["img_urls"] = img_urls
+
+        # 房屋设施
+        facilities = []
+        for facility in self.facilities:
+            facilities.append(facility.id)
+        house_dict["facilities"] = facilities
+
+        # 评论信息
+        comments = []
+        orders = Order.query.filter(Order.house_id == self.id, Order.status == "COMPLETE", Order.comment != None) \
+            .order_by(Order.update_time.desc()).limit(constants.HOUSE_DETAIL_COMMENT_DISPLAY_COUNTS)
+        for order in orders:
+            comment = {
+                "comment": order.comment,  # 评论的内容
+                "user_name": order.user.name if order.user.name != order.user.mobile else "匿名用户",  # 发表评论的用户
+                "ctime": order.update_time.strftime("%Y-%m-%d %H:%M:%S")  # 评价的时间
+            }
+            comments.append(comment)
+        house_dict["comments"] = comments
+        return house_dict
 
 
 class HouseImage(BaseModel, db.Model):
