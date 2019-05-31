@@ -22,13 +22,13 @@ def get_areas():
     """
     # 1.查询所有城区信息
     try:
-        resp_json = redis_conn.get("area_info").decode()
+        resp_json = redis_conn.get("area_info")
     except Exception as e:
         current_app.logger.error(e)
     else:
         if resp_json:
             current_app.logger.info("hit redis area_info")
-            return resp_json, 200, {"Content-Type": "application/json"}
+            return resp_json.decode(), 200, {"Content-Type": "application/json"}
 
     try:
         areas = Area.query.all()
@@ -194,17 +194,35 @@ def house_detail(house_id):
     # 1.获取url栏中的house_id
     # 2.根据house_id获取house详细信息
     try:
+        resp_json = redis_conn.get("house_info_{}".format(house_id))
+    except Exception as e:
+        current_app.logger.error(e)
+    else:
+        if resp_json:
+            current_app.logger.info("hit redis house_info_{}".format(house_id))
+            return resp_json.decode(), 200, {"Content-Type": "application/json"}
+    try:
         house = House.query.get(house_id)
     except Exception as e:
         current_app.logger.debug(e)
         return jsonify(re_code=RET.DBERR, msg='查询房屋信息失败')
+
     if not house:
         return jsonify(re_code=RET.NODATA, msg='房屋不存在')
     house = house.to_full_dict()
     # 3. 获取user_id : 当用户登录后访问detail.html，就会有user_id，反之，没有user_id
     login_user_id = session.get('user_id', -1)
+
+    resp_dict = dict(re_code=RET.OK, msg='查询成功', data={'house': house, 'login_user_id': login_user_id})
+    resp_json = json.dumps(resp_dict)
+
+    try:
+        redis_conn.set("house_info_{}".format(house_id), resp_json, constants.AREA_INFO_REDIS_EXPIRES)
+    except Exception as e:
+        current_app.logger.error(e)
+
     # 4.响应结果
-    return jsonify(re_code=RET.OK, msg='查询成功', data={'house': house, 'login_user_id': login_user_id})
+    return resp_json, 200, {"Content-Type": "application/json"}
 
 
 @api.route('/users/houses')
