@@ -113,7 +113,7 @@ def logout():
     删除session
     :return: 返回响应，跳转首页
     """
-    session.pop('user_id')
-    session.pop('name')
-    session.pop('phone_num')
+    csrf_token = session.get('csrf_token')
+    session.clear()
+    session['csrf_token']=csrf_token
     return jsonify(re_code=RET.OK, msg='退出成功')

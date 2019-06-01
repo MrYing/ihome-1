@@ -215,6 +215,7 @@ class Order(BaseModel, db.Model):
         ),
         default="WAIT_ACCEPT", index=True)
     comment = db.Column(db.Text)  # 订单的评论信息或者拒单原因
+    trade_no = db.Column(db.String(64), nullable=True)
 
     def to_dict(self):
         return {

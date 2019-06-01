@@ -35,8 +35,8 @@
                         </div>
                         {{ else if 'WAIT_PAYMENT'==order.status }}
                         <div class="fr order-operate">
-                            <button type="button" class="btn btn-success order-comment" data-toggle="modal" data-target="#comment-modal">去支付</button>
-                            <button type="button" class="btn btn-dangerous order-comment" data-toggle="modal" data-target="#comment-modal">取消订单</button>
+                            <button type="button" class="btn btn-success order-pay">去支付</button>
+                            <button type="button" class="btn btn-dangerous order-cancel" data-toggle="modal" data-target="#comment-modal">取消订单</button>
                         </div>
                         {{/if}}
                     </div>
@@ -61,6 +61,8 @@
                                             已完成
                                         {{else if "REJECTED" == order.status}}
                                             已拒单
+                                        {{else if "CANCELED" == order.status}}
+                                            已取消
                                         {{/if}}
                                     </span>
                                 </li>
@@ -68,6 +70,8 @@
                                 <li>我的评价： {{order.comment}}</li>
                                 {{else if "REJECTED" == order.status}}
                                 <li>拒单原因： {{order.comment}}</li>
+                                {{else if "CANCELED" == order.status}}
+                                <li>取消原因： {{order.comment}}</li>
                                 {{/if}}
                             </ul>
                         </div>
@@ -90,7 +94,7 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
-                            <button type="button" class="btn btn-primary modal-comment" order-id="">确定</button>
+                            <button type="button" class="btn btn-primary modal-comment">确定</button>
                         </div>
                     </div>
                 </div>

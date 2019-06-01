@@ -106,7 +106,7 @@ def get_order_list():
             orders = Order.query.filter(Order.house_id.in_(house_ids)).all()
         else:
             # 查询自己的订单
-            orders = Order.query.filter(Order.user_id == g.user_id).all()
+            orders = Order.query.filter(Order.user_id == g.user_id, ).all()
     except Exception as e:
         current_app.logger.debug(e)
         return jsonify(re_code=RET.DBERR, msg='查询订单失败')
@@ -151,3 +151,48 @@ def set_order_status(order_id):
 
     # 返回响应
     return jsonify(re_code=RET.OK, msg='提交成功')
+
+
+@api.route('/orders/<int:order_id>', methods=['DELETE'])
+@login_required
+def cancel_order(order_id):
+    try:
+        # 2.获取订单，设置相应订单状态
+        order = Order.query.filter(Order.id == order_id, Order.status == 'WAIT_PAYMENT').first()
+        if not order:
+            return jsonify(re_code=RET.PARAMERR, msg='参数异常')
+            # 获取拒单理由
+        reason = request.json.get('reason')
+        if not reason:
+            return jsonify(re_code=RET.PARAMERR, msg='不能无故取消订单')
+        order.status = 'CANCELED'
+        order.comment = reason
+        db.session.commit()
+        print(order)
+    except Exception as e:
+        current_app.logger.debug(e)
+        db.session.rollback()
+        return jsonify(re_code=RET.DBERR, msg='查询订单失败')
+    return jsonify(re_code=RET.OK, msg='取消成功')
+
+
+@api.route('/orders/comment/<int:order_id>', methods=['PUT'])
+@login_required
+def add_order_comment(order_id):
+    try:
+        # 获取订单，设置相应订单状态
+        order = Order.query.filter(Order.id == order_id, Order.status == 'WAIT_COMMENT').first()
+        if not order:
+            return jsonify(re_code=RET.PARAMERR, msg='参数异常')
+            # 获取评论
+        reason = request.json.get('reason')
+
+        order.status = 'COMPLETE'
+        order.comment = reason
+        db.session.commit()
+        print(order)
+    except Exception as e:
+        current_app.logger.debug(e)
+        db.session.rollback()
+        return jsonify(re_code=RET.DBERR, msg='查询订单失败')
+    return jsonify(re_code=RET.OK, msg='评论成功')
