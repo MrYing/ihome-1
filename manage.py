@@ -7,11 +7,14 @@
 from flask import session
 from flask_migrate import Migrate, MigrateCommand
 from flask_script import Manager
+from flask_wtf import CSRFProtect
+
 from ihome import get_app, db
 
 from ihome import models  #为了orm框架可以找到要迁移的模型
 
 app = get_app('develop')
+
 # 让迁移时，app和数据库建立关联
 Migrate(app, db)
 # 创建脚本管理器

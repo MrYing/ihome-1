@@ -40,7 +40,7 @@ $(document).ready(function () {
                     var orderId = $(this).parents('li').attr('order-id');
                     $.ajax({
                         url: 'api/1.0/orders/' + orderId + '/payment',
-                        type: 'put',
+                        type: 'post',
                         dataType: 'json',
                         headers: {
                             'X-CSRFToken': getCookie('csrf_token'),

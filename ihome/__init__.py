@@ -57,9 +57,6 @@ def get_app(config_name):
     # session绑定app
     Session(app)
 
-    # 开启CSRF保护
-    CSRFProtect(app)
-
     # 自定义转换器加入到默认转换器列表中
     app.url_map.converters['re'] = RegexConverter
 
@@ -69,5 +66,15 @@ def get_app(config_name):
     # 注册蓝图
     app.register_blueprint(api)
     app.register_blueprint(static_html)
+
+    # from ihome.api_1_0.test import test
+    from ihome.api_1_0.pay import order_complete_post
+    # 开启CSRF保护
+    csrf = CSRFProtect()
+    # 支付宝异步回调没有csrf值
+    csrf.exempt(order_complete_post)
+    # csrf.exempt(test)
+    csrf.init_app(app)
+
 
     return app

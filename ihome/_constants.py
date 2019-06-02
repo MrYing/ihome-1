@@ -46,3 +46,6 @@ HOUSE_LIST_REDIS_EXPIRES = 7200
 
 # 支付宝支付网关
 ALIPAY_URL_PREFIX = "https://openapi.alipaydev.com/gateway.do?"
+
+# 支付宝回调url
+ALIPAY_RETURN_URL = "http://127.0.0.1:5000/"

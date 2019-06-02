@@ -5,11 +5,19 @@
 # @File    : test.py
 import time
 
+from flask import request
+
 from ihome import  constants
+from ihome.api_1_0 import api
 from ihome.api_1_0.pay import PRIVATE_KEY_PATH, PUBLIC_KEY_PATH
 
 from alipay import AliPay
 
+
+@api.route('/csrf_test', methods=['POST'])
+def test():
+    print(request.args.to_dict())
+    return 'hello'
 
 
 def order_pay():

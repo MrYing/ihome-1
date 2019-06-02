@@ -9,6 +9,7 @@ from alipay import AliPay
 from flask import g, current_app, jsonify, request
 
 from ihome import constants, db
+from ihome.constants import ALIPAY_RETURN_URL
 from ihome.models import Order
 from ihome.utils.commons import login_required
 from ihome.utils.response_code import RET
@@ -18,7 +19,7 @@ PRIVATE_KEY_PATH = os.path.join(os.path.dirname(__file__), 'keys/app_private_key
 PUBLIC_KEY_PATH = os.path.join(os.path.dirname(__file__), 'keys/alipay_public_key.pem')
 
 
-@api.route('/orders/<int:order_id>/payment',  methods=['POST'])
+@api.route('/orders/<int:order_id>/payment', methods=['POST'])
 @login_required
 def order_pay(order_id):
     """
@@ -42,7 +43,7 @@ def order_pay(order_id):
     # 创建支付宝sdk对象
     alipay = AliPay(
         appid="2016091500517596",
-        app_notify_url="http://120.79.65.88:5000/api/1.0/order/complete",  # 默认回调url
+        app_notify_url=ALIPAY_RETURN_URL+"api/1.0/order/complete",  # 默认回调url
         app_private_key_path=PRIVATE_KEY_PATH,
         # 支付宝的公钥，验证支付宝回传消息使用，不是你自己的公钥,
         alipay_public_key_path=PUBLIC_KEY_PATH,
@@ -55,7 +56,7 @@ def order_pay(order_id):
         out_trade_no=order.id,
         total_amount=str(order.amount / 100.0),
         subject="爱家租房 {} ".format(order.id),
-        return_url="http://120.79.65.88:5000/payComplete.html",
+        return_url=ALIPAY_RETURN_URL+"payComplete.html",
         notify_url=None  # 可选, 不填则使用默认notify url
     )
 
@@ -79,7 +80,7 @@ def order_complete_get():
     # 创建支付宝sdk对象
     alipay = AliPay(
         appid="2016091500517596",
-        app_notify_url="http://120.79.65.88:5000/api/1.0/order/complete",  # 默认回调url
+        app_notify_url=ALIPAY_RETURN_URL+"api/1.0/order/complete",  # 默认回调url
         app_private_key_path=PRIVATE_KEY_PATH,
         # 支付宝的公钥，验证支付宝回传消息使用，不是你自己的公钥,
         alipay_public_key_path=PUBLIC_KEY_PATH,
@@ -91,7 +92,12 @@ def order_complete_get():
     if result:
         order_id = alipay_dict.get('out_trade_no')
         try:
-            Order.query.filter(Order.id==order_id).update({'trade_no': alipay_dict.get('trade_no')})
+            Order.query.filter(Order.id == order_id).update(
+                {
+                    'trade_no': alipay_dict.get('trade_no'),
+                    'status': 'WAIT_COMMENT',
+                }
+            )
             db.session.commit()
         except Exception as e:
             current_app.logger.error(e)
@@ -100,7 +106,7 @@ def order_complete_get():
 
 
 # 异步回调 notify url
-@api.route('/order/complete',  methods=['POST'])
+@api.route('/order/complete', methods=['POST'])
 @login_required
 def order_complete_post():
     """
@@ -115,7 +121,7 @@ def order_complete_post():
     # 创建支付宝sdk对象
     alipay = AliPay(
         appid="2016091500517596",
-        app_notify_url="http://120.79.65.88:5000/api/1.0/order/complete",  # 默认回调url
+        app_notify_url=ALIPAY_RETURN_URL+"api/1.0/order/complete",  # 默认回调url
         app_private_key_path=PRIVATE_KEY_PATH,
         # 支付宝的公钥，验证支付宝回传消息使用，不是你自己的公钥,
         alipay_public_key_path=PUBLIC_KEY_PATH,
@@ -136,7 +142,6 @@ def order_complete_post():
             db.session.rollback()
     return 'success'
 
-
 # @api.route('/test')
 # def test():
 #     """
@@ -150,7 +155,7 @@ def order_complete_post():
 #     # 创建支付宝sdk对象
 #     alipay = AliPay(
 #         appid="2016091500517596",
-#         app_notify_url="http://120.79.65.88:5000/api/1.0/order/complete",  # 默认回调url
+#         app_notify_url=ALIPAY_RETURN_URL+"api/1.0/order/complete",  # 默认回调url
 #         app_private_key_path=PRIVATE_KEY_PATH,
 #         # 支付宝的公钥，验证支付宝回传消息使用，不是你自己的公钥,
 #         alipay_public_key_path=PUBLIC_KEY_PATH,
